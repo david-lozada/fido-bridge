@@ -1,0 +1,16 @@
+[Unit]
+Description=FIDO Bridge — phone WebAuthn biometric relay
+Documentation=file:///usr/share/doc/fido-bridge/README.md
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/fido-bridged run
+Restart=on-failure
+RestartSec=3
+Environment=RUST_LOG=info
+# User service: no User= line — runs as the session user.
+
+[Install]
+WantedBy=default.target

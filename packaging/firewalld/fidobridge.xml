@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>FIDO Bridge</short>
+  <description>Phone WebAuthn biometric bridge (TLS WebSocket)</description>
+  <port protocol="tcp" port="17443"/>
+</service>

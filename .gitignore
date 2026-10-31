@@ -1,0 +1,11 @@
+daemon/target/
+**/target/
+android/.gradle/
+android/app/build/
+android/local.properties
+android/.idea/
+*.iml
+.idea/
+*.svg
+.DS_Store
+*.log

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FIDO Bridge</string>
+    <string name="status_disconnected">Not connected</string>
+    <string name="status_connected">Connected to %1$s</string>
+    <string name="pair">Pair with PC</string>
+    <string name="discover">Find PCs on LAN</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="revoke">Forget pairing</string>
+    <string name="prompt_title">Confirm sign-in</string>
+    <string name="prompt_message">Authenticate for %1$s</string>
+    <string name="approve">Approve with biometrics</string>
+    <string name="deny">Deny</string>
+    <string name="notification_channel">Bridge connection</string>
+    <string name="notification_text">Ready for WebAuthn requests</string>
+</resources>

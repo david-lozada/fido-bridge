@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.FidoBridge" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#1B5E20</item>
+        <item name="colorSecondary">#33691E</item>
+    </style>
+    <style name="Theme.FidoBridge.Dialog" parent="Theme.Material3.DayNight.Dialog">
+        <item name="colorPrimary">#1B5E20</item>
+    </style>
+</resources>
